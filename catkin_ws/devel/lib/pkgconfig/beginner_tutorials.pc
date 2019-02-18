@@ -1,0 +1,8 @@
+prefix=/home/patrick/ros_study/catkin_ws/devel
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/patrick/ros_study/catkin_ws/devel/lib 
+Requires: 
