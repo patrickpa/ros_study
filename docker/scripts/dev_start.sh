@@ -1,3 +1,4 @@
+echo $(pwd)
 docker pull ivex/ros-kinetic
 docker run -it \
     -d \
