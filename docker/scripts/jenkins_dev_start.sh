@@ -1,11 +1,10 @@
-echo $(pwd)
 docker pull ivex/ros-kinetic
 docker run -it \
     -d \
     --privileged \
     --rm \
     --name checker_dev \
-    --volume $(pwd):/app \
+    --volume /var/lib/docker/volumes/jenkins-data/_data/workspace/ros_study:/app \
     --net host \
     --add-host localhost:127.0.0.1 \
     --add-host in_checker_docker:127.0.0.1 \
